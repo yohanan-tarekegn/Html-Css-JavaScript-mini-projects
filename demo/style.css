@@ -1,0 +1,15 @@
+/* Creates a colored decorative bar to the left of a heading */
+h2 {
+  position: relative;
+  padding-left: 15px;
+}
+
+h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #007bff;
+}
